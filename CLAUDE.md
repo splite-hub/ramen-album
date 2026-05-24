@@ -1,3 +1,6 @@
+# Overview
+This project is the ramen album. It is posible to create memory for ramen.
+
 # Getting Started
 
 Run these commands to get started
