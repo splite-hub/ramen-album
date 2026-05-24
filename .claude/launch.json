@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Deno App (dev)",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd app && deno task dev"],
+      "port": 8000
+    },
+    {
+      "name": "Deno App (run)",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd app && deno run --allow-net main.ts"],
+      "port": 8000
+    }
+  ]
+}
