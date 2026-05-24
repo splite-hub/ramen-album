@@ -1,33 +1,23 @@
 # Overview
-This project is the ramen album. It is posible to create memory for ramen.
+This project is the ramen album. It is possible to create memory for ramen.
+The app is built with [Fresh](https://fresh.deno.dev/) (Deno web framework) and Preact + Tailwind CSS.
 
 # Getting Started
 
-Run these commands to get started
+Run these commands from the `app` directory (`cd app` first).
 
-Before each command, `cd app`. Because Deno app is in app directory.
+# Start development server (with file watching)
+deno task start
 
-# Run the server
-deno run --allow-net main.ts
+# Build for production
+deno task build
 
-# Run the server and watch for file changes
-deno task dev
+# Preview production build
+deno task preview
 
-# Run the tests
-deno test
+# Lint, format check, and type check
+deno task check
 
-# Check the current directory/module
-deno check
-
-# Check a specific TypeScript file
-deno check module.ts
-
-# Include remote modules and npm packages in the check
-deno check --all module.ts
-
-# Check code snippets in JSDoc comments
-deno check --doc module.ts
-
-# Check code snippets in markdown files
-deno check --doc-only markdown.md
+# Update Fresh and dependencies
+deno task update
 
